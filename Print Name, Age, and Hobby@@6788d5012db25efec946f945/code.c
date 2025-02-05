@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int Name, Age, Hobby;
-    scanf("%d %d %d", &Name, &Age,&Hobby);
-    printf("Name:\n Age:\n Hobby:\n %d\n %d\n %d\n", Name, Age, Hobby);
+    int Alice, 25 ,Painting;
+    scanf("%d %d %d", &Alice, &25, &Painting);
+    printf("Name:\n Age:\n Hobby:\n %d\n %d\n %d\n", Alice, 25, Painting);
     return 0;
 }
