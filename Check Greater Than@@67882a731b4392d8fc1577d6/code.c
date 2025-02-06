@@ -4,7 +4,10 @@ int main() {
     int a;
     int b;
     if(a>b){
-        printf("True")
+        printf("True");
+    }
+    else{
+        printf("False");
     }
     return 0;
 }
