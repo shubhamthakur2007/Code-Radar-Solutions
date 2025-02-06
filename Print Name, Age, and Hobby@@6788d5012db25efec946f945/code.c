@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    char str[Name, Age, Hobby];
-    scanf("%s %s %s", &Name &Age &Hobby);
-    printf("Name: Age: Hobby: %s\n %s\n %s\n", Name , Age, Hobby);
+    char Name[100];
+    int Age;
+    char Hobby[100];
+    scanf("%s %d %s", &Name &Age &Hobby);
+    printf("Name: Age: Hobby: %s\n %d\n %s\n", Name , Age, Hobby);
     return 0;
 }
