@@ -5,13 +5,13 @@ int main() {
     int b;
     scanf("%d %d", &a, &b);
     if(a>0 && b<0){
-        print("True")
+        print("True");
     }
     else if(a==0 && b==0){
-        print("True")
+        print("True");
     }
     else{
-        printf("False")
+        printf("False");
     }
     return 0;
 }
