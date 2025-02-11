@@ -4,10 +4,10 @@
 int main(){
     int c;
     scanf("%c", &c);
-    if(upper(c)){
+    if(Uppercase(c)){
         printf("Uppercase");
     }
-    else if(lower(c)){
+    else if(Lowercase(c)){
         printf("Lowercase");
     }
     return 0;
