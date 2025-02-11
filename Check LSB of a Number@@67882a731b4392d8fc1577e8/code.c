@@ -9,7 +9,7 @@ int main() {
     if (num & 1) {
         printf("Set \n");
     } else {
-        printf("Not Set 0.\n");
+        printf("Not Set \n");
     }
     
     return 0;
