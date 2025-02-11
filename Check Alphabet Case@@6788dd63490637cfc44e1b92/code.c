@@ -2,12 +2,12 @@
 #include<stdio.h>
 
 int main(){
-    int ch;
-    scanf("%c", &ch);
-    if(isupper(ch)){
+    int c;
+    scanf("%c", &c);
+    if(isupper(c)){
         printf("Uppercase");
     }
-    else if(islower(ch)){
+    else if(islower(c)){
         printf("Lowercase");
     }
     return 0;
