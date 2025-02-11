@@ -10,5 +10,7 @@ int main(){
     else if(num2 > num1){
         printf("%d", num2);
     }
-
+    else{
+        printf("%d", num1 );
+    }
 }
