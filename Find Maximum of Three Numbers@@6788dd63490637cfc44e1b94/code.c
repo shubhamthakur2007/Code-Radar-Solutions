@@ -10,7 +10,7 @@ int main(){
     else if(num2>=1 && num2>=3){
         printf("%d",num2);
     }
-    else{
+    else if(num3>=num1 && num3>=num2){
         printf("%d", num3);
     }
     return 0;
