@@ -7,7 +7,7 @@ int main(){
         printf("Valid")
     }
     else{
-        ("Inalid");
+        printf("Inalid");
     }
     return 0;
 }
