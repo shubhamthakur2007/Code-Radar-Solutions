@@ -11,7 +11,7 @@ int main(){
         printf("%d", num2);
     }
     else{
-        printf("%d", num);
+        printf("%d", num3);
     }
     return 0;
 }
