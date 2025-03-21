@@ -5,7 +5,7 @@ int main() {
     int n, nu;
     scanf("%d %d", &n, &nu);
     
-    if (num1 == n * nu) {
+    if (n == nu * nu) {
         printf("Yes %d\n");
     } else {
         printf("No %d\n");
