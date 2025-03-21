@@ -1,18 +1,22 @@
-// Your code here...
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int N;
+int main() {
+    int N, i, j, space;
+    
+    printf("Enter the number of rows: ");
     scanf("%d", &N);
-     for (int i = 1; i <=N; i++){
-        for (int j = 1; j <= N - i; j++) {
+
+    for (i = 1; i <= N; i++) {
+        // Print leading spaces
+        for (space = 1; space <= N - i; space++) {
             printf(" ");
         }
-        for (int j = 1; j <= (2 * i - 1); j++) {
-            printf("* ");
+        // Print stars
+        for (j = 1; j <= (2 * i - 1); j++) {
+            printf("*");
         }
-    printf("\n");
+        printf("\n"); // Move to the next line
+    }
 
     return 0;
-     }
 }
