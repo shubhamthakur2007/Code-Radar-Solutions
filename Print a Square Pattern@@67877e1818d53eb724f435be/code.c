@@ -1,5 +1,5 @@
 // Your code here...
-#include<stdio.h>
+#include <stdio.h>
  int main(){
     int N;
     scanf("%d", &N);
@@ -7,7 +7,7 @@
         for(int j=0; j<N; j++){
              printf("* ");
         }
-        printf("\N");
+        printf("\n");
     }
 
     return 0;
