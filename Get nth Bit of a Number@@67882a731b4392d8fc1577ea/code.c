@@ -10,7 +10,7 @@ int main() {
     // Retrieve the nth bit
     unsigned int nthBit = (number >> n) & 1;
 
-    printf("The value of bit %u is: %u\n", n, nthBit);
+    printf("%u\n", n, nthBit);
 
     return 0;
 }
