@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
-    scanf("%d %d", &num1, &num2);
+    int n, nu;
+    scanf("%d %d", &n, &nu);
     
-    if (num1 == num2 * num2) {
+    if (num1 == n * nu) {
         printf("Yes %d\n");
     } else {
         printf("No %d\n");
