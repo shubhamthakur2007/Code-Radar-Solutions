@@ -5,7 +5,6 @@ int main() {
     unsigned int number, n;
     scanf("%u", &number);
 
-    printf("Enter the bit position (n): ");
     scanf("%u", &n);
 
     // Retrieve the nth bit
