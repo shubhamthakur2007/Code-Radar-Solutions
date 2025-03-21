@@ -10,7 +10,7 @@ int main() {
     }
 
     // Check divisibility from 2 to sqrt(number)
-    for (i = 0; i * i <= number; i++) {
+    for (i = 2; i * i <= number; i++) {
         if (number % i == 0) {
             isPrime = 0; // Not a prime number
             break;
