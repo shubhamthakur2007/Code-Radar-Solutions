@@ -11,8 +11,8 @@ int main() {
         for(int k=1; k<=(2*N-i); k++){
             printf("*");
         }
+         printf("\n");
     }
-    printf("\n");
 
     return 0;
 }
