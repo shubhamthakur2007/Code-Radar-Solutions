@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 int main() {
-    int n, nu;
-    scanf("%d %d", &n, &nu);
+    int first, second;
+    scanf("%d %d", &first, &second);
     
-    if (n == nu * nu) {
-        printf("Yes %d\n");
+    if (first == second * second) {
+        printf("Yes %d");
     } else {
-        printf("No %d\n");
+        printf("No %d");
     }
     
     return 0;
